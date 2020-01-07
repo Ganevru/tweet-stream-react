@@ -4,9 +4,9 @@ const Tweet = ({ tweet }) => {
   return (
     <article className="Tweet">
       <header>
-        <h2>{tweet.user.name} writes:</h2>
+        <h2>user id: {tweet.userId}</h2>
       </header>
-      <p>{tweet.text}</p>
+      <p>{tweet.body}</p>
     </article>
   );
 };
