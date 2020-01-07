@@ -6,6 +6,7 @@ const Tweet = ({ tweet }) => {
       <header>
         <h2>user id: {tweet.userId}</h2>
       </header>
+      <h3>{tweet.title}</h3>
       <p>{tweet.body}</p>
     </article>
   );
