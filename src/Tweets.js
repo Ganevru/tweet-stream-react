@@ -5,7 +5,7 @@ import Tweet from './Tweet';
 const Tweets = ({ tweets = [] }) => {
   return (
     <section className="Tweets">
-      {tweets.map((tweet) => (
+      {tweets.map(tweet => (
         <Tweet key={tweet.id} tweet={tweet} />
       ))}
     </section>
